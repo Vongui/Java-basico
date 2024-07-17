@@ -66,3 +66,33 @@ Exemplos: |
 Exemplos:  
 com.hypertech.notification -> utilizaçao em softwares comerciais  
 edu.nome.app -> utilizado para softwares para estudo
+#### Tipos e Variáveis
+##### Tipos de dados
+Palavras reservadas para a representação dos tipos de dados básicos, sendo divididos em tipos primitivos e 
+
+###### Tipos primitivos 
+Não são considerados objetos, representado somente valores brutos.
+- int
+- byte
+- short 
+- long 
+- float 
+- double 
+- boolean
+- char
+
+###### Declaração de variável 
+É uma identificação de um espaço de memória 
+~~~
+// <Tipo> <nomeVariavel> <ValorOpcional>
+~~~
+
+###### Constantes
+Constantes em java são representadas por "final" e devem ser escritas em caixa alta, constantes são valores que quando declarados não podem sofrer alteração de valor
+~~~
+// final <Tipo> <nomeVariavel> <ValorOpcional>
+~~~
+
+[Exemplos de Declaração de variavel e Constantes](https://github.com/Vongui/Java-basico/blob/main/tipo-variaveis/src/TiposVariaveis.java)
+## Referências 
+[Java Básico](https://glysns.gitbook.io/java-basico)
