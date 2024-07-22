@@ -9,7 +9,7 @@
 ~~~java
 public class MinhaClasse { // Classe
 
-    public static void main([String [] args){ // Método
+    public static void main(String [] args){ // Método
         //métodos exigem parâmetros, ou seja, seguidos por "()"
         System.out.printl ("Olá mundo");
     }
@@ -94,5 +94,92 @@ Constantes em java são representadas por "final" e devem ser escritas em caixa 
 ~~~
 
 [Exemplos de Declaração de variavel e Constantes](https://github.com/Vongui/Java-basico/blob/main/tipo-variaveis/src/TiposVariaveis.java)
+
+#### Operadores
+Símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações
+##### Atribuição
+Utilizado para definir o valor inicial ou sobrescrever o valor de uma variável
+~~~
+//Atribuição -> '='
+String nome = "MARCOS";
+int idade = 20;
+double peso = 67.7;
+char sexo = 'M';
+~~~
+##### Aritméticos 
+Utilizado para realizar operações matemáticas e valores numéricos: + (adição), * (multiplicação), - (subtração) e / (divisão)
+~~~
+int soma = 10 + 12;
+int subtracao = 3 - 6;
+int multiplicacao = 3 * 10;
+double divisao = 5/25;
+int modulo = 18 % 3;
+double resultado = (10 * 7) + (20 / 4);
+~~~
+##### Unário 
+São aplicados juntamente com operadores aritméticos, sendo utilizado como: incremento, decretemento e etc...
++ (+) Operador unário de valor positivo
++ (-) Operador unário de valro negativo
++ (++) Operador unário de incremento
++ (--) Operador unário de decremento 
++ (!) Operador unário lógico de negação
+~~~
+int numero = 5; // por padrão o valor é positivo
+numero = -5; // o valor se torna negativo
+numero++; // é incrementado em 1
+numero--; // é drecementado em 1
+
+boolean escolha = true; // variavel booleana com valor de true
+!escolha; // a variavel foi "negada" e recebeu o valor de false
+~~~
+
+##### Ternário
+~~~
+int a, b;
+a = 5;
+b = 6;
+
+String resultado = a==b ? "verdadeiro" : "falso";
+
+// Estrutura 
+// <condicao> ? <se for verdadeiro> : <se for falso>;
+~~~
+##### Relacionais 
+Definem se o operador a esquerda é igual, diferente, menor, maior, menor ou igual, maior ou igual, retornando um valor booleano como resultado
++ (==) Verifica se a variável é igual a outra
++ (!=) Verifica se a variável é diferente da outra
++ (>) Verifica se a variável é maior que a outra
++ (<) Verifica se a variável é menor que a outra
++ (>=) Verifica se a variável é maior ou igual a outra
++ (<=) Verifica se a variável é menor ou igual a outra
+~~~
+int numero1 = 1;
+int numero2 = 2;
+
+boolean test = numero1 == numero2; // o resultado dessa afirmação vai ser 'false'
+~~~
+##### Lógicos 
++ (&&) Operador lógico 'E'
++ ( || ) Operador lógico 'OU'
+~~~
+boolean condicao1 = false; // se mudar para true o if se torna verdadeiro
+boolean condicao2 = true;
+
+if(condicao1 && condicao2){ // condicao falsa
+    System.out.println("Verdadeiras");
+}
+else{
+    System.out.println("Falsas");
+}
+~~~
+
+### Métodos
+Todas as ações das aplicações são consideradas métodos
+##### Critérios de nomeação
++ Deve ser nomeado como verbo
++ Seguir o padrão camelCase
+Exemplo: somar(int num1, int num2){}
+
+[Exemplo](https://github.com/Vongui/Java-basico/blob/main/ExemplosMétodos/src/edu/vongui)
 ## Referências 
 [Java Básico](https://glysns.gitbook.io/java-basico)
