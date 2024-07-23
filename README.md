@@ -178,8 +178,22 @@ Todas as ações das aplicações são consideradas métodos
 ##### Critérios de nomeação
 + Deve ser nomeado como verbo
 + Seguir o padrão camelCase
-Exemplo: somar(int num1, int num2){}
-
 [Exemplo](https://github.com/Vongui/Java-basico/blob/main/ExemplosMétodos/src/edu/vongui)
+
+### Palavras reservadas
+São identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizadas para nomear variáveis, classes, métodos ou atributos
+
+Exemplos: int, double, for, import, package, class, const e etc...
+
+### Documentação 
+##### Tag
+Com as tags podemos especificar, por exemplo, o autor, a versão, links, data, exceções lançadas, lista de argumentos de um método e tipo de retorno de um método. Essas tags são inseridas dentro do bloco de comentários, antecedidas pelo caractere @ (arroba), e após o nome da própria tag, inseri-se o conteúdo desejado.  
+[Implementação Tag](https://github.com/Vongui/Java-básico/blob/main/JavaDoc/src/edu/vongui/tag)
+
+##### Comentários 
+São declarações que não são executadas pelo compilador ou interpretador.
+
+[Implementação Comentários](https://github.com/Vongui/Java-básico/blob/main/JavaDoc/src/edu/vongui/comentarios)
+
 ## Referências 
 [Java Básico](https://glysns.gitbook.io/java-basico)
