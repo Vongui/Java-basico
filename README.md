@@ -188,12 +188,12 @@ Exemplos: int, double, for, import, package, class, const e etc...
 ### Documentação 
 ##### Tag
 Com as tags podemos especificar, por exemplo, o autor, a versão, links, data, exceções lançadas, lista de argumentos de um método e tipo de retorno de um método. Essas tags são inseridas dentro do bloco de comentários, antecedidas pelo caractere @ (arroba), e após o nome da própria tag, inseri-se o conteúdo desejado.  
-[Implementação Tag](https://github.com/Vongui/Java-básico/blob/main/JavaDoc/src/edu/vongui/tag)
+[Implementação Tag](https://github.com/Vongui/Java-basico/blob/main/JavaDoc/src/edu/vongui/tag/Calculadora.java)
 
 ##### Comentários 
 São declarações que não são executadas pelo compilador ou interpretador.
 
-[Implementação Comentários](https://github.com/Vongui/Java-básico/blob/main/JavaDoc/src/edu/vongui/comentarios)
+[Implementação Comentários](https://github.com/Vongui/Java-basico/blob/main/JavaDoc/src/edu/vongui/comentarios/Comentario.java)
 
 ## Referências 
 [Java Básico](https://glysns.gitbook.io/java-basico)
